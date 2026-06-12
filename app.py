@@ -20,7 +20,7 @@ if st.button("AI 분석 실행"):
             try:
                 # 제미나이 모델 설정
                 model = genai.GenerativeModel(
-                    "gemini-1.5-flash",
+                    "gemini-2.5-flash-lite",
                     generation_config={
                         "response_mime_type": "application/json"
                     },
